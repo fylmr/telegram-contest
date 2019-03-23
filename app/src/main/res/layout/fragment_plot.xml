@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.fylmr.telegramcontest.ui.views.PlotView
+            android:id="@+id/plot_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+        <com.fylmr.telegramcontest.ui.views.PlotNavigationView
+            android:id="@+id/plot_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
